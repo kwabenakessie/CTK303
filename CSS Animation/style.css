@@ -153,7 +153,8 @@
      height: 60px;
      margin: 30px;
      background: #fff;
-     display: inline-flex;
+     display: flex;
+     align-items: center;
      justify-content: center;
      border-radius: 50%;
      color:rgba(245, 194, 133, 0.988);
