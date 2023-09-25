@@ -1,0 +1,413 @@
+.mediaViewInfo {
+	--web-view-name: Contact;
+	--web-view-id: Contact;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Contact;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Contact {
+	position: absolute;
+	width: 100%;
+	height: 1670px;
+	background-color: rgba(32,32,32,1);
+	overflow: hidden;
+	--web-view-name: Contact;
+	--web-view-id: Contact;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+
+#Landing_Page {
+	position: absolute;
+	width: 100%;
+	height: 786px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Footer {
+	fill: rgba(255,255,255,1);
+}
+.Footer {
+	position: absolute;
+	overflow: visible;
+	width: 100%;
+	height: 70px;
+	left: 0px;
+	top: 1603px;
+}
+#Made_With_Love {
+	left: 620px;
+	top: 1621px;
+	position: absolute;
+	overflow: visible;
+	width: 223px;
+	height: 24px;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(32,32,32,1);
+}
+#Component_20__1 {
+	position: absolute;
+	width: 170px;
+	height: 46.568px;
+	left: 614px;
+	top: 895.432px;
+	overflow: visible;
+}
+#Rectangle_4 {
+	fill: rgba(67,66,66,1);
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 170px;
+	height: 46.568px;
+	left: 0px;
+	top: 0px;
+}
+#VIEW_MY_RESUME {
+	left: 20px;
+	top: 4.068px;
+	position: absolute;
+	overflow: visible;
+	width: 131px;
+	height: 35px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Component_14__2 {
+	position: absolute;
+	width: 552px;
+	height: 88px;
+	left: 139px;
+	top: 1019px;
+	overflow: visible;
+}
+#Rectangle_1 {
+	fill: transparent;
+	stroke: rgba(85,81,81,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 552px;
+	height: 88px;
+	left: 0px;
+	top: 0px;
+}
+#VIEW_MY_RESUME_q {
+	left: 28px;
+	top: 32px;
+	position: absolute;
+	overflow: visible;
+	width: 69px;
+	height: 35px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Component_15__2 {
+	position: absolute;
+	width: 554px;
+	height: 91px;
+	left: 708px;
+	top: 1016px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	fill: transparent;
+	stroke: rgba(85,81,81,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 554px;
+	height: 91px;
+	left: 0px;
+	top: 0px;
+}
+#VIEW_MY_RESUME_t {
+	left: 33px;
+	top: 33.5px;
+	position: absolute;
+	overflow: visible;
+	width: 67px;
+	height: 35px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Component_17__1 {
+	position: absolute;
+	width: 1120px;
+	height: 90px;
+	left: 139px;
+	top: 1128px;
+	overflow: visible;
+}
+#Rectangle_2 {
+	fill: transparent;
+	stroke: rgba(85,81,81,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 1120px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+}
+#Subject {
+	left: 27px;
+	top: 25px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Component_18__1 {
+	position: absolute;
+	width: 1120px;
+	height: 183px;
+	left: 139px;
+	top: 1236px;
+	overflow: visible;
+}
+#Rectangle_3 {
+	fill: transparent;
+	stroke: rgba(85,81,81,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 1120px;
+	height: 183px;
+	left: 0px;
+	top: 0px;
+}
+#Type_your_message_here_ {
+	left: 27px;
+	top: 71px;
+	position: absolute;
+	overflow: visible;
+	width: 281px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Component_19__1 {
+	position: absolute;
+	width: 1120px;
+	height: 90px;
+	left: 139px;
+	top: 1430px;
+	overflow: visible;
+}
+#Rectangle_7 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(85,81,81,1);
+	stroke-width: 3px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 1120px;
+	height: 90px;
+	left: 0px;
+	top: 0px;
+}
+#Submit {
+	left: 534px;
+	top: 33px;
+	position: absolute;
+	overflow: visible;
+	width: 53px;
+	white-space: nowrap;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(32,32,32,1);
+}
+#Mode_Switch {
+	position: absolute;
+	width: 55px;
+	height: 27px;
+	left: 1304px;
+	top: 22px;
+	overflow: visible;
+}
+#Mode_Switch_ {
+	fill: transparent;
+}
+.Mode_Switch_ {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 27px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_3_ {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_3_ {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 27px;
+	left: 0px;
+	top: 0px;
+}
+#Vector {
+	fill: transparent;
+}
+.Vector {
+	overflow: visible;
+	position: absolute;
+	width: 16.5px;
+	height: 16.617px;
+	left: 5px;
+	top: 5.383px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Vector_ {
+	fill: transparent;
+}
+.Vector_ {
+	overflow: visible;
+	position: absolute;
+	width: 10.193px;
+	height: 13.402px;
+	left: 11.807px;
+	top: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_8 {
+	fill: rgba(0,0,0,1);
+}
+.Ellipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	height: 17px;
+	left: 33px;
+	top: 5px;
+}
+#HOME {
+	left: 817px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	white-space: nowrap;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	line-height: 56px;
+	margin-top: -16px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#WORKS {
+	left: 984px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: work_page.html;
+	cursor: pointer;
+	line-height: 56px;
+	margin-top: -16px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#CONTACT {
+	left: 1166px;
+	top: 18px;
+	position: absolute;
+	overflow: visible;
+	width: 103px;
+	white-space: nowrap;
+	line-height: 56px;
+	margin-top: -16px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}

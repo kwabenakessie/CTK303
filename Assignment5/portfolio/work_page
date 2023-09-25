@@ -1,0 +1,295 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#work_page {
+	position: relative;
+	width: 100%;
+	height: 3145px;
+	background-color: rgba(32,32,32,1);
+	overflow: hidden;
+	--web-view-name: work page;
+	--web-view-id: work_page;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+
+header {
+	display:flex;
+	width: 100%;
+	height: 100vh;
+	background-image: url(bg.png);
+	background-size: cover;
+	background-position: center;
+}
+
+nav {
+	width: 50%;
+	margin: 0px;
+	padding: 10px 10px;
+	margin-left: 500px;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: right;
+	place-content: right;
+  }
+  
+  nav ul li {
+  width: 50px;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  margin-top: 200px;
+  list-style-type: none;
+  display: inline-block;
+  }
+  
+  nav ul{
+	text-align: right;
+  }
+  
+  nav ul li a{
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	font-family: kanit, Roboto, sans-serif;
+	display: inline-block;
+	padding: 5px 5px;
+  }
+  
+  nav ul li a:hover{
+	color: rgb(249, 78, 78);
+	transition: .2s;
+  }
+
+/*
+#ABOUT {
+	left: 339.935px;
+	top: 0px;
+	position: relative;
+	overflow: visible;
+	width: 109px;
+	height: 35px;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: Contact.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#WORKS {
+	left: 191.93px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 83px;
+	height: 35px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#HOME {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	height: 35px;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Mode_Switch {
+	position: absolute;
+	width: 55px;
+	height: 27px;
+	left: 1304px;
+	top: 36px;
+	overflow: visible;
+}
+#Mode_Switch_q {
+	fill: transparent;
+}
+.Mode_Switch_q {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 27px;
+	left: 0px;
+	top: 0px;
+}
+#Rectangle_3 {
+	fill: rgba(255,255,255,1);
+}
+.Rectangle_3 {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 27px;
+	left: 0px;
+	top: 0px;
+}
+#Vector {
+	fill: transparent;
+}
+.Vector {
+	overflow: visible;
+	position: absolute;
+	width: 16.5px;
+	height: 16.617px;
+	left: 5px;
+	top: 5.383px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Vector_t {
+	fill: transparent;
+}
+.Vector_t {
+	overflow: visible;
+	position: absolute;
+	width: 10.193px;
+	height: 13.402px;
+	left: 11.807px;
+	top: 5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_8 {
+	fill: rgba(0,0,0,1);
+}
+.Ellipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 17px;
+	height: 17px;
+	left: 33px;
+	top: 5px;
+}
+*/
+
+#wrapper{
+	width: 100%;
+	height: fit-content;
+	margin: 0;
+	padding: 0;
+}
+
+#Project_1 {
+	position: absolute;
+	width: 600px;
+	height: 356px;
+	left: 90px;
+	top: 700px;
+	overflow: visible;
+}
+
+#Project_2 {
+	position: absolute;
+    width: 446px;
+    height: 406px;
+    left: 934px;
+    top: 907px;
+    overflow: visible;
+}
+
+#Project_3 {
+	position: absolute;
+    width: 1122px;
+    height: 406px;
+	overflow: visible;
+}
+
+#Project_4 {
+	position: absolute;
+	width: 1120px;
+	height: 404px;
+	left: 160px;
+	top: 2157px;
+	overflow: visible;
+}
+
+#Frame_11 {
+	position: absolute;
+	width: 443px;
+	height: 404px;
+	left: 677px;
+	top: 0px;
+	overflow: visible;
+}
+#Frame_11_z {
+	position: absolute;
+	width: 443px;
+	height: 404px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Frame_11_ {
+	position: absolute;
+	width: 603px;
+	height: 404px;
+	left: 519px;
+	top: 0px;
+	overflow: visible;
+}
+#Frame_11_ba {
+	position: relative;
+	width: 603px;
+	height: 404px;
+	left: 0px;
+	top: 1500px;
+	overflow: visible;
+}
+
+#Frame_11_bb {
+	position: absolute;
+	width: 444px;
+	height: 404px;
+	left: 837px;
+	top: 870px;
+	overflow: visible;
+}
+#Frame_11_bc {
+	position: absolute;
+	width: 444px;
+	height: 404px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+footer{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 50px;
+  }
+  
+  footer ul li{
+	width: 200px;
+	padding: 5px 5px;
+	list-style-type: none;
+	display: inline-block;
+	font-family: 'Kanit';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+  }
+  footer ul{
+	text-align: center;
+  }

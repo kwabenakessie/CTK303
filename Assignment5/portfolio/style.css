@@ -1,0 +1,827 @@
+body {
+  margin: auto, auto;
+  padding: 0;
+  box-sizing: border-box;
+  height: auto;
+  font-family: 'roboto', sans-serif;
+  }
+
+#wrapper {
+  margin: 0px auto;
+  width: 100%;
+  padding: 10px auto;
+  }
+
+header {
+  display:flex;
+  width: 100%;
+  height: 100vh;
+  background-image: url(assets/bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  width: 50%;
+  margin: 0px;
+  padding: 10px 10px;
+  margin-left: 500px;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: right;
+  place-content: right;
+}
+
+nav ul li {
+width: 50px;
+padding: 5px 5px;
+margin: 5px 5px;
+list-style-type: none;
+display: inline-block;
+}
+
+nav ul{
+  text-align: right;
+}
+
+nav ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: kanit, Roboto, sans-serif;
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+nav ul li a:hover{
+  color: rgb(249, 78, 78);
+  transition: .2s;
+}
+
+.grid-item{
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgba(169, 81, 81, 0.044);
+  border-radius: 16px;
+  background-color: rgba(127, 255, 212, 0.088);
+  padding-left: 12px;
+  padding-right: 12px;
+  position: relative;
+}
+
+@media all and (min-width: 30rem) {
+  .Grid {
+      grid-template-columns: repeat(1, 1fr);
+
+  }
+}
+
+@media all and (min-width: 50rem) {
+  .Grid {
+      grid-template-columns: repeat(2, 1fr);
+
+  }
+}
+
+@media all and (min-width: 60rem) {
+  .Grid {
+      grid-template-columns: repeat(2, 1fr);
+      max-width: 960px;}
+
+  }
+.brief{
+  background-color: white;
+  width: 100%;
+  height: 72vh;
+  align-items: center;
+  
+}
+
+.areas ul li{
+  width: 200px;
+  padding: 5px 5px;
+  margin-top: 50px;
+  list-style-type: none;
+  display: inline-block;
+  font-family: kanit, roboto, sans-serif;
+  align-items: center;
+
+} 
+
+.areas ul{
+  text-align: center;
+}
+
+.areas ul li a{
+  color: #202020;
+  text-decoration: none;
+  font-family: kanit, Roboto, sans-serif;
+  display: inline-block;
+  padding: 5px 5px;
+} 
+
+#Icons {
+	position: relative;
+	width: 553px;
+	height: 56.813px;
+	left: 380px;
+	overflow: visible;
+}
+#Icons_v {
+	fill: transparent;
+}
+.Icons_v {
+	position: absolute;
+	overflow: visible;
+	width: 553px;
+	height: 56.813px;
+	left: 0px;
+	top: 0px;
+}
+#Ellipse_5 {
+	fill: transparent;
+	stroke: rgba(67,66,66,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_5 {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 51.225px;
+	left: 398px;
+	top: 2.794px;
+}
+#AE {
+	position: absolute;
+	width: 32px;
+	height: 28.872px;
+	left: 409px;
+	top: 13.97px;
+	overflow: visible;
+}
+#Ellipse_2 {
+	fill: transparent;
+	stroke: rgba(67,66,66,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_2 {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 51.225px;
+	left: 324px;
+	top: 2.794px;
+}
+#AI-PNG-Image {
+	position: absolute;
+	width: 29px;
+	height: 27.01px;
+	left: 336px;
+	top: 14.902px;
+	overflow: visible;
+}
+#Ellipse_4 {
+	fill: transparent;
+	stroke: rgba(67,66,66,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_4 {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 51.225px;
+	left: 249px;
+	top: 2.794px;
+}
+#Icon_Photoshop_2019 {
+	position: absolute;
+	width: 29px;
+	height: 27.01px;
+	left: 262px;
+	top: 14.902px;
+	overflow: visible;
+}
+#Ellipse_6 {
+	fill: transparent;
+	stroke: rgba(67,66,66,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 51.225px;
+	left: 99px;
+	top: 2.794px;
+}
+#adobe-xd-1 {
+	position: absolute;
+	width: 27px;
+	height: 26.078px;
+	left: 112px;
+	top: 15.833px;
+	overflow: visible;
+}
+#Ellipse_3 {
+	fill: transparent;
+	stroke: rgba(67,66,66,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_3 {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 51.225px;
+	left: 174px;
+	top: 2.794px;
+}
+#pTp {
+	position: absolute;
+	width: 62.097px;
+	height: 51.225px;
+	left: 170.452px;
+	top: 2.794px;
+	overflow: visible;
+}
+#Ellipse_7 {
+	fill: transparent;
+	stroke: rgba(67,66,66,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_7 {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 51.225px;
+	left: 473px;
+	top: 2.794px;
+}
+#premiere-pro-icon {
+	position: absolute;
+	width: 30px;
+	height: 28.872px;
+	left: 485px;
+	top: 13.97px;
+	overflow: visible;
+}
+#Component_15__3 {
+	position: absolute;
+	width: 56px;
+	height: 51.225px;
+	left: 24px;
+	top: 2.794px;
+	overflow: visible;
+}
+#Ellipse_1 {
+	fill: transparent;
+	stroke: rgba(67,66,66,1);
+	stroke-width: 0.5px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 51.225px;
+	left: 0px;
+	top: 0px;
+}
+#Fg {
+	position: absolute;
+	width: 27px;
+	height: 26.078px;
+	left: 13px;
+	top: 13.039px;
+	overflow: visible;
+}
+#text {
+	position: absolute;
+	width: 495px;
+	height: 14.902px;
+	left: 478.5px;
+	top: 1034.813px;
+	overflow: visible;
+}
+#text_bc {
+	fill: transparent;
+}
+.text_bc {
+	position: absolute;
+	overflow: visible;
+	width: 495px;
+	height: 14.902px;
+	left: 0px;
+	top: 0px;
+}
+#Figma {
+	left: -65px;
+	top:-230px;
+	position: relative;
+	overflow: visible;
+	width: 31px;
+	height: 16px;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color:   rgba(32,32,32,1);
+}
+#Adobe_XD {
+	left: -10px;
+	top: -243px;
+	position: relative;
+	overflow: visible;
+	width: 80px;
+	height: 16px;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(32,32,32,1);
+}
+#ProtoPie {
+	left: 73px;
+	top:-255px;
+	position: relative;
+	overflow: visible;
+	width: 44px;
+	height: 16px;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(32,32,32,1);
+}
+#Photoshop {
+	left: 145px;
+	top:-268px;
+	position: relative;
+	overflow: visible;
+	width: 49px;
+	height: 16px;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(32,32,32,1);
+}
+#Illustrator {
+	left: 225px;
+	top:-281px;
+	position: relative;
+	overflow: visible;
+	width: 49px;
+	height: 16px;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(32,32,32,1);
+}
+#After_Effects {
+	left: 290px;
+	top:-294px;
+	position: relative;
+	overflow: visible;
+	width: 100px;
+	height: 16px;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(32,32,32,1);
+}
+#Premier_Pro {
+	left: 375px;
+	top:-307px;
+	position: relative;
+	overflow: visible;
+	width: 70px;
+	height: 16px;
+	line-height: 17px;
+	margin-top: -3px;
+	text-align: left;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(32,32,32,1);
+}
+
+#about{
+
+  left: calc(50% - 980px/2 + 0.5px);
+	position: relative;
+	overflow: visible;
+	width: 1009px;
+	height: 120px;
+	line-height: 19px;
+	margin-top: 70px;
+	text-align: center;
+	font-family: Kanit;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(0,0,0,1);
+}
+
+#resume {
+  position: relative;
+  color: white;
+  width: 150px;
+  margin: 10px 545px;
+  padding: 15px 15px;
+   font-family: kanit, Roboto, sans-serif;
+  background-color: #313131;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.resume a{
+  position: relative;
+  width: 150px;
+  margin: 50px 565px;
+  padding: 15px 15px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.resume a:hover{
+  color: rgb(249, 78, 78);
+  transition: .2s;
+}
+
+#works{
+  background: #000000;
+  width: 100%;
+  height: 2200px;
+  display: flex;
+}
+
+#project1{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  margin-top: 130px;
+  left: calc(50% - 1120px/2 + 3px);
+  background: #101010;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.title1{
+  position: absolute;
+  width: 162px;
+  height: 27px;
+  left: 96px;
+  top: 49px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.discription1{
+  position: relative;
+  width: 549px;
+  height: 262px;
+  left: 96px;
+  margin-top: 10px;
+  top: calc(50% - 262px/2 + 21px);
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+#content{
+  position: absolute;
+  width: 526px;
+  height: 150px;
+  left: 32px;
+  top: 39px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+
+#See_More_1{
+  position: absolute;
+  width: 98px;
+  height: 36px;
+  left: 125px;
+  top: 280px;
+
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.mockup1{
+  position: absolute;
+  width: 233px;
+  height: 505px;
+  left: 730px;
+  top: -100px;
+  background: url(assets/EFPAC.png);
+}
+
+#project2{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  left: 74px;
+  background: #101010;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  bottom: -1520px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.title2{
+  position: absolute;
+  width: 162px;
+  height: 27px;
+  left: 480px;
+  top: 49px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.discription2{
+  position: absolute;
+  width: 544px;
+  height: 262px;
+  left: 480px;
+  top: calc(50% - 262px/2 + 18px);
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+#content2{
+  position: absolute;
+  width: 451px;
+  height: 150px;
+  left: 35px;
+  top: 46px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  color: #FFFFFF;
+  text-align: left;
+}
+
+#See_More_2{
+  position: relative;
+  width: 98px;
+  height: 36px;
+  left: 515px;
+  top: 275px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.mockup2{
+  position: absolute;
+  width: 345px;
+  height: 384px;
+  left: 100px;
+  top: -30px;
+  background: url(assets/n_2_edited.png);
+}
+
+#project3{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  left: calc(50% - 1120px/2 + 3px);
+  bottom: 750px;
+  background: #101010;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  bottom: -2030px;
+}
+
+.title3{
+  position: absolute;
+  width: 162px;
+  height: 27px;
+  left: 97px;
+  top: 49px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.discription3{
+  position: absolute;
+  width: 546px;
+  height: 262px;
+  left: 97px;
+  top: calc(50% - 262px/2 + 21px);
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+#content3{
+  position: absolute;
+  width: 444px;
+  height: 134px;
+  left: 30px;
+  top: 39px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+  color: #FFFFFF;
+  
+}
+
+#See_More_3{
+  position: absolute;
+  width: 98px;
+  height: 36px;
+  left: 125px;
+  top: 270px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.mockup3{
+  position: absolute;
+  width: 345px;
+  height: 386px;
+  left: 680px;
+  top: -30px;
+  background: url(assets/n__c.png);
+}
+
+#project4{
+  position: absolute;
+  width: 1120px;
+  height: 404px;
+  left: calc(50% - 1120px/2 + 3px);
+  bottom: 152px;
+  background: #101010;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  bottom: -2580px;
+}
+
+.title4{
+  position: absolute;
+  left: 479px;
+  right: 479px;
+  top: 12.13%;
+  bottom: 81.19%;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.discription4{
+  position: absolute;
+  width: 549px;
+  height: 262px;
+  left: 477px;
+  top: calc(50% - 262px/2 + 18px);  
+  border: 1px solid #FFFFFF;
+  border-radius: 11px;
+}
+
+#content4{
+  position: absolute;
+  width: 338px;
+  height: 150px;
+  left: 35px;
+  top: 37px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+
+#See_More_4{
+  position: absolute;
+  width: 98px;
+  height: 36px;
+  left: 510px;
+  top: 250px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+
+.mockup4{
+  position: absolute;
+  width: 345px;
+  height: 386px;
+  left: 95px;
+  top: -35px;
+  background: url(assets/n_.png);
+}
+footer{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 50px;
+}
+
+address{
+  display: block;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 10px;
+  fill: #202020; 
+}
+
+footer ul{
+  text-align: center;
+}
