@@ -1,15 +1,75 @@
-<!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>p5.js example</title>
-    <style> body {padding: 0; margin: 0;} </style>
-    <script src="../../libs/p5.js"></script>
-    <script src="../../libs/p5.dom.js"></script>
-    <script src="../../libs/p5.sound.js"></script>
-    <script src="sketch.js"></script>
-  </head>
-  <body>
-  </body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="script" type="text/js" href="script.js">
+    <title>music player</title>
+</head>
+
+<body>
+    <div class="container">
+     
+        <p id="logo"><i class="fa fa-music" aria-hidden="true">usicfy</i></p>
+
+        <div class="left">
+
+            <img id="track_image">
+            <div class="volume">
+
+            <p id="volume_show"></p>
+            <i class="fa fa-volume-up" aria-hidden="true" id="volume_icon" onclick="mute_sound()"></i>
+
+         </div>
+    </div>
+
+    <div class="right">
+
+        <!-- <div class="show_song_no">
+            <p id="present">1</p>
+            <p></p>
+            <p id="total">5</p>
+        </div> -->
+        <div class="wave">
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+            <span class="stroke"></span>
+        </div>
+
+            <!-- <h2>Do It Again</h2> -->
+            <!-- <p id="title">.mp3</p> -->
+            <h2>Do It Again</h2>
+            <p id="artist">Elevation Worship</p>
+
+
+            <div class="middle">
+                <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+                <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+                <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+            
+            </div>
+
+
+            <div class="duration">
+                <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="volume_change()">
+            </div>
+            <button id="auto" onclick="autoplay_switch()">Auto  play <i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>
+        
+        
+        </div>
+    </div>
+
+
+    <script src="script.js"></script> 
+      
+</body>
 </html>

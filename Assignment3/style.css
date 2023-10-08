@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    font-family: Roboto,sans-serif;
+    background: linear-gradient(45deg, rgb(0, 255, 47), rgb(255, 247, 102), rgb(0, 255, 221), rgb(208, 0, 255));
+    background-size: 400% 400%; 
+    animation: gradientAnimation 10s ease infinite; 
+    
+}
+
+ #svg-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  .circle {
+    animation: rotate 6s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+  
+  .circle:nth-child(1) {
+    animation-delay: 2s;
+  }
+  
+  .circle:nth-child(2) {
+    animation-delay: 5s;
+  }
+  
+  .circle:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  .circle:nth-child(4) {
+    animation-delay: 4.5s;
+  }
+  
+  .circle:nth-child(5) {
+    animation-delay: 3s;
+  }
+  
+  .circle:nth-child(6) {
+    animation-delay: 7.5s;
+  }
+  
+  .circle:nth-child(7) {
+    animation-delay: 2s;
+  }
+  
+  
