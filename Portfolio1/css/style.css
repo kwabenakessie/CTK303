@@ -1,3 +1,11 @@
+*{
+	/* width: auto;
+	height: auto; */
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
 a {
 	color: #000;
 }
@@ -12,21 +20,31 @@ p{
 
 p,h6, address{
 	font-family: 'Krub', sans-serif;
-	color: #777;
+	color: #2b2b2b;
+	font-size: 16px;
 }
 
-h1,h2,h3,h4,h5,h6{
-	text-transform: uppercase;
+h2,h3,h4,h5,h6{
+	font-family: 'Krub', sans-serif;
 }
+
+.h1{
+	font-size: 100px;
+	font-family: 'zcoolxiaowei';
+	font-weight: bold;
+	color: #2b2b2b;
+}
+
 header{
 	width: 100%;
 	height: 100vh;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 0;
 	position: relative;
-	background-image: url(../img/header.jpg);
+	background-image: url(../img/bg.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
 section{
@@ -43,6 +61,9 @@ figure{
 
 .container{
 	position: relative;
+	width: 75%;
+	height: 30%;
+	
 }
 
 .form-control{
@@ -65,8 +86,6 @@ figure{
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
-
 
 textarea.form-control{
 	height: 195px;
@@ -126,10 +145,10 @@ textarea.form-control{
 }
 
 .main-head h1{
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	font-size: 45px;	
 	position: relative;
-	line-height: 1.4em;
+	line-height: 1.7em;
 	margin-bottom: 40px;
 }
 
@@ -142,7 +161,7 @@ textarea.form-control{
 }
 
 .main-head{
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	width: 100%;
 	position: absolute;
 	top: 50%;
@@ -157,10 +176,9 @@ textarea.form-control{
 
 .divider{
 	width: 80px;
-	background: #000;
 	height: 1px;
 	display: block;
-	margin:20px auto;
+	margin:40px auto;
 }
 
 .divider.divider-sm{
@@ -170,6 +188,24 @@ textarea.form-control{
 
 .divider.divider-lg{
 	width: 180px;
+	
+}
+
+.divider2{
+	width: 80px;
+	height: 1px;
+	background: #000;
+	display: block;
+	margin:40px auto;
+}
+
+.divide2.divider2-sm{
+	width: 40px;
+	margin: 20px 0;
+}
+
+.divider2.divider2-sm{
+	width: 1100px;
 }
 
 .btn{
@@ -180,7 +216,7 @@ textarea.form-control{
 }
 
 .btn-lg{
-	padding: 25px 50px;
+	padding: 15px 40px;
 }
 
 .btn-lg.btn-primary{
@@ -189,8 +225,8 @@ textarea.form-control{
 
 .btn-primary{
 	background: transparent;
-	border:1px solid #8a8587;
-	color: #000;
+	border:2px solid #8a8587;
+	color: #030303;
 }
 
 .btn-primary:hover,
@@ -263,7 +299,7 @@ PORTFOLIO
 
 #portfolio-grid .mix{
 	display: none;
-	
+
 }
 
 .row {

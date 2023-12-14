@@ -1,11 +1,4 @@
-/*------------------------------------------------------------------
-Project:        Wooster - HTML onepage theme by GraphBerry.com
-Version:        1.0
-Last change:    04/07/2015
-Author:         GraphBerry
-URL:            http://graphberry.com
-License:        http://graphberry.com/pages/license
--------------------------------------------------------------------*/
+
 $(function(){
 	'use strict';
 
